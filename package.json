@@ -1,8 +1,13 @@
 {
   "name": "only-the-dirty",
-  "displayName": "Only the Dirty",
+  "displayName": "Only the Dirty (Know the Tab I Feel Tonight)",
+  "publisher": "LemuelCushing",
+  "repository": {
+    "url": "https://github.com/LemuelCushing/only_the_dirty"
+  },
   "description": "Close all non-dirty editor tabs, leaving only unsaved changes open",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "icon": "logo.png",
   "engines": {
     "vscode": "^1.96.0"
   },
