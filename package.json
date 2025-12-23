@@ -6,7 +6,7 @@
     "url": "https://github.com/LemuelCushing/only_the_dirty"
   },
   "description": "Close all non-dirty editor tabs, leaving only unsaved changes open",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "icon": "logo_small.png",
   "engines": {
     "vscode": "^1.96.0"
@@ -14,7 +14,6 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
@@ -22,7 +21,17 @@
         "command": "onlyTheDirty.closeNonDirtyTabs",
         "title": "Close All Non-Dirty Tabs"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Only the Dirty",
+      "properties": {
+        "onlyTheDirty.keepPinnedTabs": {
+          "type": "boolean",
+          "default": false,
+          "description": "Keep pinned (non-preview) tabs open when closing non-dirty tabs."
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",

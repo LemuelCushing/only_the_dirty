@@ -1,12 +1,18 @@
-# Only the Dirty
+# Only the Dirty (Know What Them Tabs Feel Like Tonight)
 
-Close all non-dirty editor tabs, leaving only unsaved changes open.
+  _Rid yourself of all clean tabs in one fell swoop_
+
+Closes all non-dirty editor tabs, leaving only unsaved changes open
 
 ![Only The Dirty Logo](https://github.com/LemuelCushing/only_the_dirty/raw/main/docs/logo.png)
 
 ## Usage
 
 Run "Close All Non-Dirty Tabs" from the Command Palette (`Cmd/Ctrl + Shift + P`).
+
+## Settings
+
+- `onlyTheDirty.keepPinnedTabs` (default: false): Keep pinned (non-preview) tabs open when closing non-dirty tabs.
 
 ## What "dirty" means
 
