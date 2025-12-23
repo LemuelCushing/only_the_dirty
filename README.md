@@ -2,7 +2,7 @@
 
 Close all non-dirty editor tabs, leaving only unsaved changes open.
 
-![Only the Dirty logo](docs/logo.png)
+![Only The Dirty Logo](https://github.com/LemuelCushing/only_the_dirty/raw/main/docs/logo.png)
 
 ## Usage
 
