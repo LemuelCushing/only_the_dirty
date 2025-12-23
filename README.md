@@ -2,6 +2,8 @@
 
 Close all non-dirty editor tabs, leaving only unsaved changes open.
 
+![Only the Dirty logo](docs/logo.png)
+
 ## Usage
 
 Run "Close All Non-Dirty Tabs" from the Command Palette (`Cmd/Ctrl + Shift + P`).

@@ -7,7 +7,7 @@
   },
   "description": "Close all non-dirty editor tabs, leaving only unsaved changes open",
   "version": "0.1.0",
-  "icon": "logo.png",
+  "icon": "logo_small.png",
   "engines": {
     "vscode": "^1.96.0"
   },
