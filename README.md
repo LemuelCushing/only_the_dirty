@@ -6,6 +6,10 @@ Closes all non-dirty editor tabs, leaving only unsaved changes open
 
 ![Only The Dirty Logo](https://github.com/LemuelCushing/only_the_dirty/raw/main/docs/logo.png)
 
+## What's dirty? 
+
+That little dot next the tab name - means you've got unsaved changes. Them's the dirty ones, we keep em. The clean tabs go home.
+
 ## Usage
 
 Run "Close All Non-Dirty Tabs" from the Command Palette (`Cmd/Ctrl + Shift + P`).
@@ -14,6 +18,7 @@ Run "Close All Non-Dirty Tabs" from the Command Palette (`Cmd/Ctrl + Shift + P`)
 
 - `onlyTheDirty.keepPinnedTabs` (default: false): Keep pinned (non-preview) tabs open when closing non-dirty tabs.
 
-## What "dirty" means
+## Ad Usum Centurionis
 
-In VS Code, a tab is "dirty" when you have unsaved changes to the file. Dirty tabs display a dot or indicator next to their name in the tab list. This command closes all tabs without unsaved changes, preserving your work-in-progress files.
+<del>Tabulas munda eunt domus</del>
+Tabulae mundae domum eunt
