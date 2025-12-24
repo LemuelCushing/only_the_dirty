@@ -6,7 +6,7 @@
     "url": "https://github.com/LemuelCushing/only_the_dirty"
   },
   "description": "Close all non-dirty editor tabs, leaving only unsaved changes open",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "icon": "logo_small.png",
   "engines": {
     "vscode": "^1.96.0"
